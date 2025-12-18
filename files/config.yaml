@@ -1,0 +1,17 @@
+#cloud-config
+
+users:
+  - name: nutanix
+    plain_text_passwd: "nutanix"
+    lock_passwd: false
+    sudo: ["ALL=(ALL) NOPASSWD:ALL"]
+    shell: /bin/bash
+
+ssh_pwauth: true
+hostname: ${vm_name}
+
+package_update: true
+package_upgrade: true
+
+power_state:
+  mode: reboot
