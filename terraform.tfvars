@@ -1,6 +1,6 @@
 pc_username         = "admin"
-pc_password         = "nutanix/4u"
-pc_endpoint         = "10.0.80.50"
+pc_password         = "password"
+pc_endpoint         = "0.0.0.0"
 foundation_endpoint = "0.0.0.0"
 foundation_port     = "0000"
 ndb_username        = "####"
