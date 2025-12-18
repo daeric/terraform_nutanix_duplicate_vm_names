@@ -24,7 +24,7 @@ Use this repo as a testing/demo workspace — do not commit secrets or credentia
 - Nutanix Prism Central reachable from the machine running Terraform.
 - The `nutanix/nutanix` provider (pinned in `providers.tf`), and `hashicorp/null` for the guard.
 
-##How duplicate names are handled
+## How duplicate names are handled
 
 This config uses a data source `nutanix_virtual_machines_v2.existing` to query Prism Central for any VM that matches the requested `vm_name`.
 
