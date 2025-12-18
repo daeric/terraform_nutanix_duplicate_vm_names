@@ -1,7 +1,5 @@
 # terraform_nutanix_duplicate_vm_names
 
-Use this repo as a testing/demo workspace — do not commit secrets or credentials.
-
 This Terraform configuration creates a Nutanix AHV virtual machine using the `nutanix` provider (v2.x). It includes a cloud-init guest-customization payload and a guard that detects duplicate VM names in Prism Central. Unlike the `*_suffix` example workflow, this repository intentionally prevents creation when a name collision is detected (the apply is aborted).
 
 ## What this repo does
